@@ -1,0 +1,136 @@
+/* Reset some default styles */
+body, h1, h2, p, a, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #f4f4f4; /* نص فاتح */
+    background-color: #333; /* خلفية داكنة رمادية */
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: #FFC107; /* لون أصفر */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    border-bottom: 5px solid #666; /* خط رمادي داكن أسفل العنوان */
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    max-width: 120px; /* عرض الشعار الأقصى */
+}
+
+.logo img {
+    width: 100%; /* يجعل الشعار يملأ الحاوية */
+    height: auto; /* يحافظ على النسب الأصلية للشعار */
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a.active {
+    color: #333; /* تغيير لون الرابط النشط */
+}
+
+nav ul li a:hover {
+    color: #333; /* تغيير لون الروابط عند المرور */
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Main Content Styles */
+main {
+    padding: 40px 0;
+}
+
+section {
+    margin-bottom: 40px;
+    background: #000; /* خلفية سوداء */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+}
+
+section h2 {
+    font-size: 2.5em;
+    color: #FFC107; /* لون أصفر */
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #ccc; /* لون نص رمادي فاتح */
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #666; /* لون رمادي داكن */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-top: 20px; /* إضافة مسافة فوق الأزرار */
+}
+
+.btn:hover {
+    background: #555; /* لون أغمق عند المرور */
+    transform: scale(1.05); /* تأثير تكبير طفيف */
+}
+
+/* Footer Styles */
+footer {
+    background: #FFC107; /* لون أصفر */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    border-top: 5px solid #666; /* خط رمادي داكن أعلى التذييل */
+}
+
+footer p {
+    font-size: 1em;
+}
